@@ -1,0 +1,43 @@
+class Baseball{
+    public int test [] = new test [5];
+    public int test2 = 3;
+    public bool test3 = false;
+    private Baseball me;
+
+    Baseball(int a, int b, char c){}
+
+    private int score(){
+        return 2;
+    }
+
+    public int score(int a){
+        ///score('a');  ///look at this issue
+        score('b');
+        return a;
+    }
+
+    private void score(char c){
+        return;
+    }
+
+    public int avg(int ab, int hits){
+        return (hits / ab);
+    }
+
+    public Baseball getBB(){
+        return me;
+    }
+}
+
+class Bat{}
+
+void main(){
+//    Baseball ball = new Baseball();
+//    int a = ball.score(2+1+2+3);
+
+//    Baseball ball [] = new Baseball[(2+2+3+false)];
+
+//    Baseball ball2 = new Baseball((2+3), 3, 'a');
+//    cout << ball2.score(3) + 3;
+//    cin >> 3;
+}

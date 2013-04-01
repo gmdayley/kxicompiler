@@ -1,0 +1,34 @@
+class Bird{
+    private int age;
+    private bool canFly;
+
+    Bird(){}
+    Bird(int age, bool canFly){
+        //this.age = age;
+        age = age;
+        canFly = canFly;
+    }
+
+    public bool isTooOld(){
+        if(age > 15){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public void chirp(){
+        int num;
+
+        cin >> true;
+
+        while(num > 0){
+            cout << 'a';
+            num = num - 1;
+        }
+    }
+}
+
+void main (){
+}

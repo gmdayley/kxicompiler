@@ -1,0 +1,39 @@
+class Test{
+    private bool x;
+}
+
+void main(){
+    int arr[] = new int[6];
+
+    bool a = true;
+    bool b = false;
+    char c = 'c';
+    char d = 'd';
+
+    int x = 2;
+    int y = 5;
+    int z = 12;
+    //arr[0] = 5;
+
+    if(c == d || (x < y)){}
+
+    if(a || b){
+        x = ((x + y) / z);
+        x = ((((((((((x + x))))))))));
+    }
+
+    if((a || b) || (x || y)){
+    }
+
+    if(x < y){}
+
+    if(a && b || ((x < y) || (x > z))){}
+
+    while(a){}
+
+    while((a == b)){
+        y = x * z + y / x + (y - z) * x;
+    }
+
+    x = (x + x) / (x - x);
+}

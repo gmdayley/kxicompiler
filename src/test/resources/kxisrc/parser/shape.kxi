@@ -1,0 +1,87 @@
+class Shape{
+    private int length;
+    private int width;
+    private Color color;
+    private bool xyz[];
+
+    Shape(int l, int w, Color c){
+        length = l;
+        width = w;
+    }
+
+    public void display(){
+        cout << area;
+    }
+
+    public int area(){
+        int area = (length * width);
+        return area;
+    }
+
+    public bool isSquare(){
+        if(length == width){
+            return true;
+        }
+        //todo check if we can return in an else
+        return false;
+    }
+
+    //todo add diaganol
+
+    public void scale(int factor){
+        length = length * factor;
+        width = width * factor;
+    }
+
+    public void print(){
+        int i = 0;
+        int j = 0;
+        //Bogus k = 12;
+
+        while(i < width){
+            cout << '*';
+            i = i + 1;
+        }
+        cout << '\n';
+
+        i = 2;  //1 for top, 1 for bottom
+
+        while(i < length){
+            cout << '*';    //left side
+
+            j = 2;
+            while(j < width){
+                cout << ' ';    //blank space
+                j = j + 1;
+            }
+
+            cout << '*';    //right side
+            cout << '\n';
+            i = i + 1;
+        }
+
+        i = 0;
+        while(i < width){
+            cout << '*';
+            i = i + 1;
+        }
+        cout << '\n';
+    }
+}
+
+class Color{
+    private int red;
+    private int yellow;
+    private int blue;
+
+    Color(int r, int y, int b){
+        red = r;
+        yellow = y;
+        blue = b;
+    }
+}
+
+void main (){
+}
+
+

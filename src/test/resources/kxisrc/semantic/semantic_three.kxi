@@ -1,0 +1,54 @@
+class MyClass{
+//    private bool bools [] = new bool [3];
+//    private int nums [] = new int[3];
+//
+//    private int x;
+//    private int y;
+//    private int z;
+//
+//    MyClass(){
+//        x = 0;
+//        y = 1;
+//        z = 2;
+//    }
+//
+//    public void swap(int r, int s){
+//        int temp = r;
+//        r = s;
+//        s = temp;
+//    }
+//
+//    public void swapIfBigger(int r, int s){
+//        bool isBigger = (r > s);
+//
+//        int temp;
+//        if(isBigger){
+//            temp = r;
+//            r = s;
+//            s = temp;
+//        }
+//    }
+//
+    public int f(int x, int y){
+        //bool a = true;
+
+        return x;
+    }
+}
+
+void main(){
+    MyClass y;
+
+    int k = 0;
+    int g = 1;
+    int r = 2;
+
+    int x;
+    //y.f(k, g);
+
+    //x = y.f(k, g) + g * r;
+
+    if(3){
+
+    }
+}

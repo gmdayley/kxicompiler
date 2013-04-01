@@ -1,0 +1,103 @@
+void main(){
+    int k;
+    int j;
+    int sum;
+
+    cout << "62";
+    cin >> k;
+    cout << "13";
+
+    while(k != 0){
+        if(k < 0) {
+            k = (k * -1);
+            cout << k;
+            cout << "13";
+            sum = 0;
+
+            while(k > 0){
+                j = k;
+
+                while(j > 0){
+                    if ((j % 3) == 0)
+                        sum = (sum + j);
+                    j = (j - 1);
+                }
+                k = (k - 1);
+            }
+
+            cout << sum;
+            cout << "13";
+        }
+        else {
+            j = 1;
+            sum = 0;
+
+
+            while (j < k){
+                sum = (sum + ((j + sum) / (sum + j)));
+                j = (j + 1);
+            }
+
+            cout << sum;
+            cout << "13";
+        }
+
+        cout << "62";
+        cin >> k;
+        cout << "13";
+    }
+}
+
+
+//void main(){
+//    int i = 0;
+//    int j;
+//
+//    cout << "62";
+//    cin >> j;
+//
+//    while(i < j){
+//        cout << 5;
+//        i = i + 1;
+//    }
+//}
+
+
+//void main(){
+//    int i = 0;
+//    while(i <= 5){
+//        cout << i;
+//        i = i + 1;
+//    }
+//
+//    cout << '3';
+//
+//    while(i >= 0){
+//        cout << i;
+//        i = i - 1;
+//    }
+//
+//}
+
+
+
+//void main(){
+//    int a = 1;
+//    int b = 2;
+//    int c = a + 1;
+//
+//    int d = a + b + c;
+//
+////    if(d == 5){
+////        cout << 17;
+////    }
+////    else{
+////        cout << 15;
+////    }
+//
+//    while(d < 10){
+//        cout << 3;
+//        d = d + 1;
+//    }
+//    //cout << (d + 1);
+//}

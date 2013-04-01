@@ -1,0 +1,19 @@
+public class Dog{
+    String name;
+    int age;
+    Dog[] parents;
+
+    public void Dog(String name, int age){
+        this.name = name;
+        this.age = age;
+    }
+
+    public String speak(){
+        return "Bark";
+    }
+
+    //This will return the human age of the dog
+    public int humanAge() {
+        return age / 7;
+    }
+}

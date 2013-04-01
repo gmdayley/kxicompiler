@@ -1,0 +1,29 @@
+class Math{
+    Math(){}
+
+    public int add(BinaryExpression exp){
+        return exp.getLHS() + exp.getRHS();
+    }
+}
+
+class BinaryExpression{
+    private int lhs;
+    private int rhs;
+
+    BinaryExpression(int l, int r){
+        lhs = l;
+        rhs = r;
+    }
+
+    public int getLHS(){
+        return lhs;
+    }
+
+    public int getRHS(){
+        return rhs;
+    }
+}
+
+void main(){
+
+}

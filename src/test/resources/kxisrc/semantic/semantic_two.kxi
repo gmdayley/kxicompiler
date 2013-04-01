@@ -1,0 +1,9 @@
+void main(){
+    int y = 3;
+    int x []= new int [10];
+//    x[0] = 0;
+
+//    x[5 + y] = 12;
+
+    y = x[5];
+}

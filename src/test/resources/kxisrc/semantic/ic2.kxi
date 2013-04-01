@@ -1,0 +1,26 @@
+class Cat{
+    public int a = 2;
+    public int a = 2;
+    public int a = 2;
+    private char x = '9';
+    Cat(int b){
+    }
+}
+
+
+class Dog{
+    public int a = 2;
+
+    Dog(int b){
+    }
+}
+
+void main(){
+    Cat c;
+    Dog d;
+
+    while(1 < 2){
+        c = new Cat();
+        d = new Dog();
+    }
+}

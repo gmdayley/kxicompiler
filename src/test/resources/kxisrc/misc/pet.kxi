@@ -1,0 +1,71 @@
+class pet
+{
+	pet(char name, int age)
+	{
+		name = 'a';
+		age = 4;
+	}
+	public int owners[];
+	private bool buyPet(bool buyitNow)
+	{
+		if (buyItNow)
+			return true;
+		else
+		{
+			while (buyItNow != true)
+				age = 6;
+		}
+		return false;
+	}
+}
+
+class cat
+{
+	public pet fluffy = new pet('a', 8);
+	private char color;
+	cat()
+	{
+		color = 'v';
+		while (color == 'r')
+		{
+			if (fluffy.buyPet(false) == true)
+				cout << color;
+		}
+	}
+	public pet petCat()
+	{
+		pet newPet = new pet('b', 3);
+		if (newPet.buyPet(true))
+			pet.owners[1] = 3;
+		return newPet;
+	}
+	public int kick(bool willHurt, int members[])
+	{
+		if (color == null)
+			fluffy.owners[0] = members[0];
+		return 2;
+	}
+}
+
+
+void main()
+{
+	bool isFunny = false;
+	int howMany[] = new int [17];
+	char initials;
+	cat scratch = new cat();
+	if (scratch.petCat().buyPet(true))
+		cout << 'd';
+
+	if (4< 6)
+	{
+
+		while (isFunny == true)
+		{
+			cout << 'n';
+			cin >> initials;
+		}
+	IsFunny = true;
+	}
+
+}
